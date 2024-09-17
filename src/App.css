@@ -43,12 +43,18 @@ h1 {
 }
 
 .button {
-  width: 75px;
-  height: 30px;
-  background-color: darkblue;
+  width: 100px;
+  height: 36px;
+  background-color: rgb(5, 74, 83);
   border-radius: 20px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   box-shadow: 2px 2px 10px dimgray;
   margin: 10px 0 0 0;
+  transition: all 0.3s ease;
+}
+.button:hover {
+  background-color: rgb(10, 110, 120); 
+  transform: scale(1.05); 
+  box-shadow: 4px 4px 15px gray; 
 }
